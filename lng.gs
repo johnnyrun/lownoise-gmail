@@ -40,7 +40,7 @@ function Intialize() {
 }
 
 function Install() {
-  ScriptApp.newTrigger("purgeGmailFromQuery").timeBased().everyMinutes(5).create();
+  ScriptApp.newTrigger("purgeGmailFromQueries").timeBased().everyMinutes(5).create();
 
 }
 
